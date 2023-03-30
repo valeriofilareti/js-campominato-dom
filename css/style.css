@@ -26,7 +26,7 @@ body {
   height: 63px;
   border: 1px solid black;
   background-color: rgb(127, 160, 69);
-  border-radius: 7px;
+  border-radius: 15px;
 }
 .medium-box {
   width: 70px;
