@@ -9,6 +9,7 @@ const resBtn = document.getElementById('res-btn');
 
 genBtn.addEventListener('click', function () {
   
+  reset()
   const difficult = document.querySelector('.diff')
 
   let totalBoxes;
@@ -51,4 +52,9 @@ function generateBoxes (boxN) {
   const boxElement = document.createElement('div')
   boxElement.classList.add(boxN)
   return boxElement
+}
+
+function reset () {
+  const container = document.querySelector('.container');
+  container.innerHTML = ''
 }
